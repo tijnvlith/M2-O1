@@ -1,0 +1,89 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.top{
+    width: 310px;
+    height: 105px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: white;
+    
+}
+
+.img {
+    float: right;
+    width: 15%;
+    margin-top: 10px;
+}
+
+.name {
+    line-height: 10px;
+}
+
+.name h1 {
+    font-size: larger;
+}
+
+.name h2 {
+    font-size: .9em;
+    color: rgb(131, 131, 131);
+}
+
+.request {
+    color: rgb(80, 80, 80);
+    font-size: .9em;
+}
+
+.bottom{
+    width: 310px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-top:none ;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+    font-size: small;
+    background-color: white;
+}
+
+.b1{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    color: limegreen;
+    border: 1px solid limegreen;
+    background-color: white;
+    border-style: solid;
+    font-weight: bold;
+    margin-right: -3px;
+}
+
+.b2 {
+    width: 150px;
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+    color: red;
+    border: 1px solid red;
+    background-color: white;
+    border-style: solid;
+    font-weight: bold;
+    margin-left: -2px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 50px;
+}
+
+.carla {
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+
+.marijn {
+    grid-column: 4 / 5;
+    grid-row: 2;
+}
